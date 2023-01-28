@@ -184,7 +184,7 @@ class GameTests: XCTestCase {
      */
     func testPinsKnockedDown_score_with_strike_bonus() {
         // frame 1
-        // strike, so will ski[ sceond turn
+        // strike, so will skip second turn
         sut.pinsKnockedDown(10)
         
         // frame 2
